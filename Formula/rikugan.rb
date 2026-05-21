@@ -1,28 +1,28 @@
 class Rikugan < Formula
   desc "TUI diff reviewer for AI prompts"
   homepage "https://github.com/onikukiraii/rikugan"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.0/rikugan_0.6.0_darwin_amd64.tar.gz"
-      sha256 "fc97f6af5e612e2f2039037663aa8951eb98e1e08209aa0dd37141972fc53d1f"
+      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.1/rikugan_0.6.1_darwin_amd64.tar.gz"
+      sha256 "0211da47169e58449fae4488e3886bcd778545a11ad8ce45546bd980d8f65739"
     end
     on_arm do
-      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.0/rikugan_0.6.0_darwin_arm64.tar.gz"
-      sha256 "90239b1f7fb26aea5b5ff1b58494e09761136f17b38b7e9d68039f9a94580fa2"
+      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.1/rikugan_0.6.1_darwin_arm64.tar.gz"
+      sha256 "f24a24cf2895defbb9d909e8db325f3db1fcbe6c18f0263f11c11dc76ffcb699"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.0/rikugan_0.6.0_linux_amd64.tar.gz"
-      sha256 "3fe6fdb503d81ed2b9e6e2ed7bb1fad1bf2f4aa0fe55b896ab3f5ee1c3e8c940"
+      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.1/rikugan_0.6.1_linux_amd64.tar.gz"
+      sha256 "1492333d4c81e40b2c17874188651f33e53fa475b843a0e4dba424d41e7ae15d"
     end
     on_arm do
-      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.0/rikugan_0.6.0_linux_arm64.tar.gz"
-      sha256 "9872fe6d510fc3a55cc6a587df17af51e1e9b0619a9862a631e0c2ff6d0d4436"
+      url "https://github.com/onikukiraii/rikugan/releases/download/v0.6.1/rikugan_0.6.1_linux_arm64.tar.gz"
+      sha256 "e8e4cbd4c9ce30e4745fae818894cb6af46c52c7677ea280b61438c022cb122b"
     end
   end
 
